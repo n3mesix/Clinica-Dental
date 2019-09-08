@@ -1,0 +1,49 @@
+/*fondo del body*/
+body{
+  background-color:#3c70a4;
+}
+
+/*color de letra del nav*/
+ .navbar .nav-item .nav-link {
+    color: #fff;
+  }
+
+/*fondo de pantalla para el header*/  
+.main-principal{
+    position: relative;
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    min-height: 900px;
+  }
+/*sombreado para el h1 y parrafo*/
+.main-principal .header-info{
+      color:white;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      text-align: center;
+      padding: 250px 100px 20px 90px;
+  }
+
+/*fondo para seccion tratamientos*/ 
+.tratamientos{
+  position: relative;
+  background: url(../img/fondo-tratamientos.jpg);
+  background-size: cover;
+  min-height: 800px;
+}
+
+/*Tamaño de iconos*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/*fondo para formulario*/
+.formulario{
+  background: url(../img/patron.jpg);
+  background-repeat: repeat;
+}
+
+.main-ubicacion{
+  background: url(../img/patron.jpg);
+  background-repeat: repeat;
+}
